@@ -1,0 +1,17 @@
+.container__menu-title {
+  color: #373737;
+}
+
+.container__menu-title > h1 {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  padding: 125px 0;
+  font-size: 54px;
+  line-height: 105px;
+  font-weight: 900;
+  letter-spacing: -4px;
+  -webkit-text-stroke: 3px;
+  -webkit-text-stroke-color: #fff;
+  font-family: 'Oswald',sans-serif;
+}

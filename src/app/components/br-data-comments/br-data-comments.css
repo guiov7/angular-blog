@@ -1,0 +1,20 @@
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box div span {
+  display: flex;
+}
+
+div span #watch, #chat{
+  margin-right: 5px;
+}
+
+

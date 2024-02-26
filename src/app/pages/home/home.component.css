@@ -1,0 +1,12 @@
+body {
+  width: 100%;
+  height: fit fit-content;
+  background-image: url("./main-backgroundbackground-wall.png");
+  font-family: 'Oswald', sans-serif;
+}
+
+.container__articles {
+  padding: 23px;
+  display: flex;
+  gap: 16px;
+}
