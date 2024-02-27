@@ -1,16 +1,15 @@
 .container_small-card {
   width: 409px;
-  height: 224px;
+  height: 249px;
   display: flex;
   flex-direction: column;
-  background-color: #fff;
   justify-content: justify;
   align-items: center;
+  background-color: #fff;
   margin-bottom: 23px;
 }
-
 .small-card__title {
-  padding: 71px 41px 3px 41px;
+  margin: 21px 30px 0 30px;
 }
 .small-card__title a{
   color: #000;
@@ -23,10 +22,11 @@
   text-decoration: underline;
 }
 .small-card__description {
-  margin: 0 30px 15px 30px;
+  margin: 3px 30px 25px 30px;
 }
 .small-card__description a{
   color: #000;
+  font-family: 'Inria Sans', sans-serif;
   font-size: 16px;
   cursor: pointer;
   text-decoration: none;
@@ -37,6 +37,6 @@
   text-decoration: underline;
 }
 
-app-br-datacomments {
+#br-small {
   width: calc(100% - 60px)
 }

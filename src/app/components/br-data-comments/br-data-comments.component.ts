@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class AppBrDataComments implements OnInit {
+  watchImg:string = 'watch-icon.svg'
   data: string = "21 Nov 2024";
+  chatImg:string = 'comments-icon.svg'
   qtd: number = 14;
   constructor() {
 

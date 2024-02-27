@@ -4,24 +4,27 @@ div, p, a, img {
 .container_big-card {
   border: solid white 10px;
   width: 409px;
-  height: 575px;
+  height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   background-color: #fff;
 }
 
 .big-card__photo img {
-  min-width: 409px;
-  width: 406px;
-  max-width: 224;
+  min-width: 544px;
+  width: 530px;
+  max-width: 224px;
   height: 210px;
 }
-
+.big-card__title {
+  width: 100%;
+  display: flex;
+}
 .big-card__title a {
   color: #000;
-  margin: 0 43px;
+  padding: 30px 14px 8px 43px;
   font-size: 33px;
   cursor: pointer;
   text-decoration: none;
@@ -34,7 +37,7 @@ div, p, a, img {
 .big-card__description {
   font-size: 24px;
   color: #000;
-  margin: 5px 52px;
+  margin: 0 52px 15px 52px;
   width: 314px;
   height: 197px;
 }

@@ -9,6 +9,7 @@ import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AppBrDataComments } from './components/br-data-comments/br-data-comments.component';
+import { MediumCardComponent } from './components/medium-card/medium-card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AppBrDataComments } from './components/br-data-comments/br-data-comment
     BigCardComponent,
     SmallCardComponent,
     HomeComponent,
-    AppBrDataComments
+    AppBrDataComments,
+    MediumCardComponent
   ],
   imports: [
     BrowserModule,

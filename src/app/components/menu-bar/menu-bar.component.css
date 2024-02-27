@@ -1,0 +1,28 @@
+nav {
+  padding : 30px 0 40px 100px;
+  background-color: #111111;
+  color: #C8C8C8;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 43px;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+}
+
+li {
+  padding: 5px;
+}
+li:hover {
+  transform: 0.8s;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #C8C8C8;
+}
+
+img {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+}

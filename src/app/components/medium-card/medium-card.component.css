@@ -1,0 +1,29 @@
+.container_medium-card {
+  width: 406px;
+  height: 495px;
+}
+
+.medium-card__title {
+  background-color: red;
+  padding: 41px 51px 71px 38px;
+}
+
+.container_medium-inside {
+  background: #fff;
+}
+
+.medium-card__title2 {
+  padding: 22px 30px 6px 30px;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: start;
+}
+
+.medium-card__description {
+  font-size: 18px;
+  padding: 0px 47.5px 0 47.5px;
+}
+
+app-br-datacomments {
+  padding: 0 247.5px
+}
